@@ -33,11 +33,7 @@ print(words)
 
 # 5-task
 words=input("So'zni kiriting: ")
-new=""
-for i in words:
-    new+=i
-    new+="<>"
-print(new)
+print(*words, sep="<>")
 
 # 6-task
 word1=input("1 sozni kiriting: ")
