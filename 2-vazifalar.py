@@ -68,3 +68,4 @@ if num%4==0 and num%5:
 else:
     print(False)
 
+# 9-task
