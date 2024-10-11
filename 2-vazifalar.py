@@ -75,12 +75,12 @@ pass
 #     print(f"{n} x {i} = {n*i}")
 #
 # # 11-task
-n=int(input("Sonni kiriting: "))
-count=1
-for i in range(1, n+1):
-    count*=i
-print(count)
-
+# n=int(input("Sonni kiriting: "))
+# count=1
+# for i in range(1, n+1):
+#     count*=i
+# print(count)
+#
 # 12-task
 txt=input("So'zni kiriting: ")
 character= input("belgini kiriting: ")
