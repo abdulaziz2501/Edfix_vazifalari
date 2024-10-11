@@ -69,7 +69,14 @@
 #
 # # 9-task
 pass
-# 10-task
+# # 10-task
+# n=int(input("Sonni kiriting: "))
+# for i in range(2, 11):
+#     print(f"{n} x {i} = {n*i}")
+#
+# # 11-task
 n=int(input("Sonni kiriting: "))
-for i in range(2, 11):
-    print(f"{n} x {i} = {n*i}")
+count=1
+for i in range(1, n):
+    count*=i
+print(count)
