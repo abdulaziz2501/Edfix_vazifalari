@@ -92,3 +92,12 @@
 #     print(False)
 
 # 13-task
+n=int(input("Mehmonlar sonini kiriting: "))
+count=0
+if n == 1:
+    count=0
+elif n % 2 == 0:
+    count=n // 2
+else:
+    count=n
+print(count)
