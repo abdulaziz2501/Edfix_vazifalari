@@ -21,5 +21,22 @@
 #        break
 #    print(f"{i} + ", end="")
 #    summa += i
-
-# 4-task
+#
+# # 4-task
+# txt=input("so'zni kiriting: ")
+# lst=txt.split(" ")
+# for i in range(len(lst)):
+#     if len(lst[i])%2:
+#         lst[i]=lst[i][::-1]
+# print(' '.join(lst))
+#
+# # 5-task
+# num=int(input("Sonni kiriting: "))
+# s=bin(num)[2:]
+# count=0
+# for i in range(len(s)):
+#     if s[i]=='0':
+#         count+=1
+# print(count)
+#
+# # 6-task
