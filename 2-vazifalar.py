@@ -80,3 +80,11 @@ count=1
 for i in range(1, n+1):
     count*=i
 print(count)
+
+# 12-task
+txt=input("So'zni kiriting: ")
+character= input("belgini kiriting: ")
+if len(character)==1 and character in txt:
+    print(True)
+else:
+    print(False)
