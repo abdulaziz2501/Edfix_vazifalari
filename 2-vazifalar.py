@@ -68,9 +68,9 @@
 #     print(False)
 #
 # # 9-task
-son = int(input("Butun son kiriting: "))
-count = len(str(abs(son)))
-print(count)
+# son = int(input("Butun son kiriting: "))
+# count = len(str(abs(son)))
+# print(count)
 # # 10-task
 # n=int(input("Sonni kiriting: "))
 # for i in range(2, 11):
