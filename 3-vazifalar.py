@@ -13,13 +13,13 @@
 # print(' '.join(lst))
 #
 # # 3-task
-n=int(input("Sonni kiriting: "))
-summa=0
-for i in range(1, n+1):
-   if i==n:
-       print(f"{i}={summa+i}", end="")
-       break
-   print(f"{i} + ", end="")
-   summa += i
+# n=int(input("Sonni kiriting: "))
+# summa=0
+# for i in range(1, n+1):
+#    if i==n:
+#        print(f"{i}={summa+i}", end="")
+#        break
+#    print(f"{i} + ", end="")
+#    summa += i
 
 # 4-task
