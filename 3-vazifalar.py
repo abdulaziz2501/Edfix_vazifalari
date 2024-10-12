@@ -40,17 +40,29 @@
 # print(count)
 #
 # # 6-task
-# pass
+son = int(input("Son kiriting: "))
+count = 0
+current = son + 1
+lst = []
+while count < 5:
+    tub = True
+    for i in range(2, current):
+        if current % i == 0:
+            tub = False
+            break
+    if tub:
+        lst.append(current)
+        count += 1
+
+    current += 1
+print(lst)
+
 #
 # # 7-task
 # txt=input("matnni kiriting: ")
 # character=input("harfni kiriting: ")
-# if character.islower() and len(character)==1:
-#     for i in range(len(txt)):
-#         if character in txt:
-#             txt[i].upper()
-# print(txt)
-#hali to'liq emas 6-7 masala
+# natija = ''.join([char.upper() if char == character else char for char in txt])
+# print(natija)
 #
 # # 8-task
 # n=int(input("Sonni kiriting: "))
@@ -75,5 +87,7 @@ for i in range( a):
         print(f"{d}", end="")
         break
     print(f"{d} + ", end="")
+
+# 11-task
 
 
