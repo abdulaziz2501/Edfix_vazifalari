@@ -40,22 +40,22 @@
 # print(count)
 #
 # # 6-task
-son = int(input("Son kiriting: "))
-count = 0
-current = son + 1
-lst = []
-while count < 5:
-    tub = True
-    for i in range(2, current):
-        if current % i == 0:
-            tub = False
-            break
-    if tub:
-        lst.append(current)
-        count += 1
-
-    current += 1
-print(lst)
+# son = int(input("Son kiriting: "))
+# count = 0
+# current = son + 1
+# lst = []
+# while count < 5:
+#     tub = True
+#     for i in range(2, current):
+#         if current % i == 0:
+#             tub = False
+#             break
+#     if tub:
+#         lst.append(current)
+#         count += 1
+#
+#     current += 1
+# print(lst)
 
 #
 # # 7-task
