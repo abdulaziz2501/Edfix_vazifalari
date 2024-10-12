@@ -71,7 +71,9 @@ a=len(str(n))
 b=str(n)
 for i in range( a):
     d=str(int(b[i])*10**(a-i-1))
-    if i == n:
-        print(f"{d}={d}", end="")
+    if i+1==a:
+        print(f"{d}", end="")
         break
     print(f"{d} + ", end="")
+
+
