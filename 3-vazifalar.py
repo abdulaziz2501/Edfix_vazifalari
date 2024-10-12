@@ -55,7 +55,7 @@ while count < 5:
         count += 1
 
     current += 1
-print(lst)
+print(*lst)
 
 #
 # # 7-task
