@@ -9,3 +9,5 @@
 # lst2=['Adina Park', 'Leyton Marsh', 'Duncan Boyle', 'Saim Richards']
 # lst3=[85, 98, 89, 92]
 # print(dct(lst1,lst2,lst3))
+
+2-task
