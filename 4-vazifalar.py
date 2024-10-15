@@ -1,3 +1,4 @@
+1-task
 def dct(lst1, lst2, lst3) -> list :
     lugat={}
     if len(lst1)==len(lst2) and len(lst2)==len(lst3):
