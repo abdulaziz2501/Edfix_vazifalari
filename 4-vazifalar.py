@@ -12,3 +12,4 @@
 
 # 2-task
 def count_text():
+    pass
