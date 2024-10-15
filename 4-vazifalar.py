@@ -10,4 +10,4 @@
 # lst3=[85, 98, 89, 92]
 # print(dct(lst1,lst2,lst3))
 
-2-task
+# 2-task
