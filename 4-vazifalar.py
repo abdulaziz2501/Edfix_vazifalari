@@ -11,3 +11,4 @@
 # print(dct(lst1,lst2,lst3))
 
 # 2-task
+def count_text():
