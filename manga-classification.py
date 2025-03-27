@@ -34,8 +34,8 @@ transform_val = transforms.Compose([
 
 # Ma'lumotlar to'plamini yuklash
 def load_data(data_dir, batch_size=32):
-    train_dir = os.path.join(data_dir, 'train')
-    val_dir = os.path.join(data_dir, 'val')
+    train_dir = os.path.join(data_dir, 'training/')
+    val_dir = os.path.join(data_dir, 'PDR/')
     
     train_dataset = ImageFolder(root=train_dir, transform=transform_train)
     val_dataset = ImageFolder(root=val_dir, transform=transform_val)
@@ -240,13 +240,13 @@ def predict_image(model, image_path, class_names):
 # Misol uchun ishlatish
 if __name__ == "__main__":
     # Ma'lumotlar papkasi
-    data_dir = "manga_dataset"  # Bu yerga o'z papkangiz yo'lini kiriting
+    data_dir = "diabetic/"  # Bu yerga o'z papkangiz yo'lini kiriting
     
     # Modelni o'rgatish
     model, class_names, accuracy = main(data_dir, num_epochs=15, batch_size=32)
     
     # Yangi rasmni bashorat qilish
-    image_path = "test_image.jpg"  # Bu yerga test rasm yo'lini kiriting
+    image_path = "diabetic/PDR/570.jpg"  # Bu yerga test rasm yo'lini kiriting
     predicted_class, confidence, all_probs = predict_image(model, image_path, class_names)
     
     print(f"Bashorat qilingan sinf: {predicted_class}")
